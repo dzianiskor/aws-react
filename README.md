@@ -1,3 +1,6 @@
+# Deployed
+`https://d3klhsuhks5k32.cloudfront.net/`
+
 # Task
 5 - Serverless-finch and serverless-single-page-app plugins are added and configured. The app can be built and deployed by running npm script command. (Link to CloudFront website is provided. PR with all changes is submitted in the YOUR OWN frontend repository and its link is provided for review.)
 

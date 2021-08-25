@@ -4,9 +4,8 @@ frameworkVersion: '2'
 
 provider:
   name: aws
-  runtime: nodejs12.x
-  # setup profile for AWS CLI.
-  profile: dzianiskor
+  runtime: nodejs14.x
+  region: eu-west-1
 
 plugins:
   - serverless-finch
@@ -17,7 +16,7 @@ plugins:
 
 custom:
   client:
-    bucketName: task-2-manual-part
+    bucketName: aws-front-end-2
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
